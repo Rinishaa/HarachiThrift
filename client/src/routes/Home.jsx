@@ -11,7 +11,8 @@ const Home = () => {
     TabTitle("Home - Shema");
 
     useEffect(() => {
-        axios.get("https://shema-backend.vercel.app/api/items")
+        // axios.get("https://shema-backend.vercel.app/api/items")
+        axios.get("http://localhost:5000/api/items")
             .then(res => setFeaturedItems(res.data))
             .catch(err => console.log(err))
 

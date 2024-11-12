@@ -36,10 +36,7 @@ const itemSchema = mongoose.Schema(
             type: Array,
             required: true
         },
-        detail: {
-            type: String,
-            required: true
-        },
+        detail: String, // Make detail optional,
         image: {
             type: Array,
             required: true

@@ -2,14 +2,16 @@
 
 .landing__container {
     width: 100%;
-    min-height: 420px;
+    min-height: 650px;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap-reverse;
-    background-color: #ffe26e;
+    background-image: url("C:\Users\rinis\Desktop\mern-ecommerce - Copy\client\src\asset\brand\land.jpg");
+    background-position:right;
+    background-size: 100% 100%;
     position: relative;
 }
 
@@ -26,8 +28,10 @@
     min-width: 300px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
+    margin-left: 800px;
+    margin-bottom: 100px;
 }
 
 .landing__header {
@@ -35,13 +39,15 @@
     width: 90%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;    
     flex-direction: column;
 }
 
 .landing__header__main {
     font-size: 4.0rem;
     font-weight: 800;
+    display: flex;
+    align-self: flex-end;
 }
 
 .landing__header__discount {
@@ -52,21 +58,6 @@
     width: 60%;
     cursor: pointer;
     transition: .3s;
-}
-
-.landing__image__container {
-    width: 50%;
-    height: ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.landing__image {
-    height: auto;
-    width: auto;
-    top: 0%;
-    z-index: 10;
 }
 
 

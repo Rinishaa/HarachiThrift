@@ -3,7 +3,7 @@
 const itemsCollection = [
     {
         "_id": "630b7c690dd4ac34455cb262",
-        "name": "Versace",
+        "name": "joota",
         "category": "men",
         "color": "black",
         "type": "shoes",
@@ -1495,4 +1495,5 @@ const itemsCollection = [
         "updatedAt": "2022-08-29T14:28:06.542Z",
         "__v": 0
     }
-]
+];
+module.exports = itemsCollection;
