@@ -1,19 +1,19 @@
 {
-  "name": "shema",
+  "name": "harachi",
   "version": "1.0.0",
-  "description": "Shema MERN Stack Ecommerce application",
+  "description": "Harachi MERN Stack Thrift application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bereky/shema-mern-ecommerce.git"
+    "url": "git+https://github.com/Rinishaa/HarachiThrift.git"
   },
-  "author": "Bereket Lemma",
+  "author": "Rinisha Tiwari",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bereky/shema-mern-ecommerce/issues"
+    "url": "https://github.com/Rinishaa/HarachiThrift/issues"
   },
-  "homepage": "https://github.com/Bereky/shema-mern-ecommerce#readme"
+  "homepage": "https://github.com/Rinishaa/HarachiThrift#readme"
 }
